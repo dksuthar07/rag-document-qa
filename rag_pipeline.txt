@@ -1,0 +1,27 @@
+User Uploads Documents (PDF / DOCX)
+            ↓
+Document Loader (LangChain Loaders)
+            ↓
+Text Chunking
+(RecursiveCharacterTextSplitter)
+            ↓
+Embedding Generation
+(HuggingFace Sentence Transformers)
+            ↓
+FAISS Vector Database
+(Store Document Embeddings)
+            ↓
+User Question
+            ↓
+Semantic Similarity Search
+(Retriever)
+            ↓
+Relevant Chunks Retrieved
+            ↓
+Groq LLM (Llama-3.3)
++ Custom Prompt Template
+            ↓
+Context-Aware Answer Generation
+            ↓
+Answer + Source References
+(Streamlit Interface)
